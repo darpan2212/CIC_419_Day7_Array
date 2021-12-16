@@ -12,6 +12,7 @@ animal[((cnt++))]="Tiger";
 animal[((cnt++))]="Dog";
 
 echo ${animal[@]};
+echo ${!animal[@]}
 echo "Array size of animal : ${#animal[@]}"
 bird=("Pigeon" "Crow" "Eagle");
 echo ${bird[@]};
