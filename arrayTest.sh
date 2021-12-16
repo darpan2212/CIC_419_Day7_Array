@@ -1,3 +1,5 @@
+#!/bin/bash -x
+
 cnt=0;
 animal[((cnt++))]="Lion";
 animal[((cnt++))]="Tiger";
