@@ -8,9 +8,6 @@ animal[((cnt++))]="Dog";
 animal[((cnt++))]="Lion";
 animal[((cnt++))]="Tiger";
 animal[((cnt++))]="Dog";
-animal[((cnt++))]="Lion";
-animal[((cnt++))]="Tiger";
-animal[((cnt++))]="Dog";
 
 echo ${animal[@]};
 echo "Array size of animal : ${#animal[@]}"
